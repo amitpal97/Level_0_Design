@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Angkor-Regular';
+    src: url("/assets/fonts/Angkor-Regular.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}   
+
+body {
+
+    background: #1E1E1E;
+}
+
+/* .main_wrapper {
+} */
+
+.main_wrapper-left_wrapper {
+    width: 1366px;
+    margin: 0 auto;
+    position: relative;
+    background: #1A1A1A;
+    height: 1024px;
+
+
+
+}
+
+.left_wapper-left {
+    width: 765px;
+    height: 588px;
+    font-size: 20px;
+
+    background: #5236FF;
+    border-radius: 9px;
+    position: absolute;
+    color: #FFFFFF;
+    line-height: 36px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mainStar {
+    position: absolute;
+    width: 305px;
+    top: 513px;
+    left: 881px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 9px;
+    /* color: #FFFFFF1A 10%; */
+    height: 50px;
+    text-align: center;
+
+
+}
+
+.StartNow {
+    /* width: 166px; */
+    /* height: 67px; */
+    font-family: 'Angkor-Regular';
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 8px;
+
+    /* align-items: center; */
+}
+
+.lavelNow {
+    position: absolute;
+    width: 706px;
+    top: 423px;
+    left: 511px;
+    font-size: 96px;
+    font-family: "Angkor-Regular";
+
+}
+
+.StartYour {
+    position: absolute;
+    width: 706px;
+    top: 321px;
+    left: 520px;
+    font-size: 96px;
+    font-family: 'Angkor-Regular';
+    /* margin-bottom: 21px; */
+}
+
+.nav {
+    height: 74px;
+    position: absolute;
+    width: 1366px;
+    top: 1px;
+    /* left: 20px; */
+    background: rgba(217, 217, 217, 0.05);
+    backdrop-filter: blur(40px);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.levelNew {
+    position: absolute;
+    left: 204px;
+    /* width: 30%; */
+
+
+}
+
+.navoption {
+    width: 22%;
+    display: flex;
+    position: absolute;
+    right: 30px;
+    justify-content: space-between;
+    font-family: 'Angkor-Regular';
+    font-size: 20px;
+    top: 21px;
+
+    /* background: rgba(217, 217, 217, 0.05);
+    backdrop-filter:blur(40px); */
+
+}
+
+.navOpt {}
+
+.orangeWrap {
+    width: 789px;
+    height: 672px;
+    left: 955px;
+    top: 486px;
+    position: absolute;
+    background-color: #FF3636;
+    border-radius: 9px;
+
+}
