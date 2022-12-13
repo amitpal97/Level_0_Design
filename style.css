@@ -69,6 +69,9 @@ body {
 
     /* align-items: center; */
 }
+.StartNow:hover{
+    color: #1E1E1E;
+}
 
 .lavelNow {
     position: absolute;
@@ -128,7 +131,12 @@ body {
 
 }
 
-.navOpt {}
+.navOpt:hover {
+    cursor: pointer;
+    color: brown;
+    box-shadow: 2px 4px 15px 10px gray;
+    /* background-color:cadetblue; */
+}
 
 .orangeWrap {
     width: 93%;
